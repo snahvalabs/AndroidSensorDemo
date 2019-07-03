@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".LightSensorActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deteksi Sensor Cahaya"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_sensor_cahaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Cahaya : ..." />
+
+    <TextView
+        android:id="@+id/tv_sensor_proximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Kedekatan : ..." />
+
+    <TextView
+        android:id="@+id/tv_sensor_gyri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Gyro : ..." />
+</LinearLayout>
